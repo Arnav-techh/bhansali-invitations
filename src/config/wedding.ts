@@ -36,7 +36,7 @@ export const wedding = {
   ],
   style: "A celebration of love, laughter & forever",
   hashtag: "#KUSHily_ever-after",
-  siteUrl: "https://shreya-wedding-invitation.lovable.app",
+  siteUrl: "https://bhansali-invitations.vercel.app",
   shareImage: sharePhoto,
   message:
     "With the blessings of our elders and the grace of Bhagwan Mahavir, we joyfully invite you to share in the auspicious beginning of our new journey together.",
