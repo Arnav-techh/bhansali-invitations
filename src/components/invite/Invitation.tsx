@@ -283,7 +283,6 @@ export function Invitation({ guest }: { guest?: string | undefined }) {
                   <div className="arch-frame mx-auto aspect-[3/4] max-w-[240px]"><Placeholder src={person.photo} label={`${person.short}'s portrait`} /></div>
                   <p className="eyebrow mt-6">{role as string}</p>
                   <h3 className="mt-2 font-display text-3xl">{person.name}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">{person.family}</p>
                 </Reveal>
               );
             })}
@@ -325,7 +324,6 @@ export function Invitation({ guest }: { guest?: string | undefined }) {
             <p className="eyebrow mt-3">All celebrations at</p>
             <h3 className="mt-3 font-display text-3xl">{wedding.venue.name}</h3>
             <p className="mt-2 text-sm text-muted-foreground">{wedding.venue.address}</p>
-            <VenueActions />
           </Reveal>
         </section>
 
